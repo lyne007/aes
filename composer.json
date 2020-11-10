@@ -1,0 +1,22 @@
+{
+    "name": "lyne007/aes",
+    "description": "Aes library",
+    "keywords": ["AES", "OpenSSL","mcrypt", "encryption", "decryption"],
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Lyne007",
+            "email": "lyne007@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lyne007\\AES\\": "src/Lyne007/AES"
+        }
+    }
+}
